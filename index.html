@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <!-- This part of the section will refer to ajax1.js file -->
+    <section>
+        <h1>Ajax 1 - Text file</h1>
+        <p>In this first section I am using a HTTP Request to grab the sample.txt file.  By clicking on the button below you will see
+            a paragraph generate.  
+        </p>
+        <button id="buttonone">Show text file</button>
+        <p id="text"></p>
+
+        <!-- This button will bring up fencer.html -->
+        <p>For this section I am using a HTTP Request to grap the fencer.html file.  By clicking on the button you will see the information from
+            a html file.
+        </p>
+        <button id="buttontwo">show html file</button>
+        <p id="htmlfile"></p>
+    </section>
+    <br>
+    <script src="ajax1.js"></script>
+    
+
+    <!-- ================================================================ -->
+
+
+    <!-- This part will refer to ajax2.js file -->
+    <section>
+        <h1>Ajax 2 - user.json & users.json</h1>
+        <p>In this next section I am using a HTTP Request to grab the user.json file. By clicking on the button you will see the information 
+            from that file. 
+        </p>
+        <button id="button1">Get User</button>
+        <p>In this next section I am using a HTTP Request to grab the users.json file. By clicking on the button you will see the information
+            from that file.
+        </p>
+        <button id="button2">Get Users</button>
+        <br>
+        <!-- =========================================================== -->
+        <h2>user</h2>
+        <p>Below you will see the information from clicking on the Get User button.</p>
+        <div id="user"></div>
+        <h2>users</h2>
+        <p>Below you will see the information from clicking on the Get Users button.</p>
+        <div id="users"></div>
+    </section>
+    <br>
+    <script src="ajax2.js"></script>    
+
+
+    <!-- ================================================================ -->
+
+    
+    <!-- This part will refer to ajax3.js file -->
+    <section>
+        <h1>Ajax 3 - External API</h1>
+        <br>
+        <button id="button3">Load GitHub Users</button>
+        <h2>GitHub Users</h2>
+        <div id="users2"></div>
+    </section>
+    <script src="ajax3.js"></script>
+</body>
+</html>

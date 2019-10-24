@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+#foilpics{
+    border-bottom: 5px solid black;
+    background-color: greenyellow;
+}
+
+h1{
+    font:24px;
+    text-transform: capitalize;
+    font-family: 'Cinzel', serif;
+
+}
+
+#epeepics{
+    border-bottom: 5px solid black;
+    background-color: gold;
+}
